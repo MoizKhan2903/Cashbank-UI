@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+}
+.navleft{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+
+}
+.navleft img{
+    width: 36px;
+}
+.navleft h1{
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.navmid{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-transform: capitalize;
+}
+.navmid a{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+
+.navright{
+    width: 30%;
+    height: 100%;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 70px;
+}
+.navright button{
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.main{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(233, 229, 229);
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+}
+.main button{
+    cursor: pointer;
+}
+.main .left{
+width: 49%;
+height: 100%;
+background-color: white;
+border-radius: 8px;
+}
+.main .left .top{
+    width: 100%;
+    height: 70%;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-items: self-start;
+gap: 22px;
+padding: 50px;
+}
+
+.left .top h1{
+    text-transform: capitalize;
+    font-size: 70px;
+    font-weight: 500;
+    margin-top: 80px;
+}
+.left .top p{
+    font-size: 19px;
+    color: rgb(95, 95, 95);
+}
+
+.top button{
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+  
+}
+.top .two{
+   position: relative;
+   background-color: rgb(180, 180, 180);
+   color: black;
+   bottom: 59px;
+   left: 20vh;
+}
+.main .left .bottom{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    padding-left: 50px;
+    padding-top: 40px;
+    gap: 20px;
+}
+
+.main .left .bottom .leftbottom{
+    width: 35%;
+    height: 80%;
+}
+
+.main .left .bottom .rightbottom{
+    width: 35%;
+    height: 80%;
+}
+.main .left .bottom h1{
+    font-weight: 500;
+    font-size: 45px;
+    padding-bottom: 8px;
+}
+
+.main .left .bottom p{
+    font-size: 14px;
+    color: rgb(95, 95, 95);
+}
+
+.main .right{
+    width: 49%;
+    height: 100%;
+    background-color: white;
+    border-radius: 8px;
+    background-image: url(./medium-shot-man-working-as-real-estate-agent.jpg);
+    background-position-y: -7vh;
+    background-size: cover;
+    }
+
+    .main .right .stats{
+        width: 37vh;
+        height: 28vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        top: 48vh;
+        left: 5vh;
+    }
+
+    .main  .right .stats .up{
+        width: 100%;
+        height: 46%;
+        background-color: white;
+        padding: 20px 15px;
+        border-radius: 8px;
+    }
+    .main  .right .stats .down{
+        width: 100%;
+        height: 46%;
+        background-color: white;
+        padding: 20px 15px; 
+        border-radius: 8px;
+    }
+
+
+    .main  .right .stats .up .upone{
+        display: flex;
+        justify-content: space-between;
+        color: rgb(105, 105, 105);
+    }
+
+    .main  .right .stats .up .uptwo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 15px;
+    }
+    .main  .right .stats .up .uptwo h3{
+       font-size: 25px;
+       font-weight: 500;
+    }
+
+    .main  .right .stats .up .uptwo p{
+        font-size: 11px;
+        padding: 4px 6px;
+        background-color: rgba(0, 128, 0, 0.111);
+        color: rgb(2, 107, 2);
+        border-radius: 20px;
+    }
+
+
+
+    .main  .right .stats .down .downone{
+        display: flex;
+        justify-content: space-between;
+        color: rgb(105, 105, 105);
+    }
+
+    .main  .right .stats .down .downtwo{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 15px;
+    }
+    .main  .right .stats .down .downtwo h3{
+       font-size: 25px;
+       font-weight: 500;
+    }
+
+    .main  .right .stats .down .downtwo p{
+        font-size: 11px;
+        padding: 4px 6px;
+        background-color: rgba(128, 0, 0, 0.111);
+        color: rgb(129, 3, 3);
+        border-radius: 20px;
+    }
+
+    .up .upone .fa-ellipsis-vertical{
+        cursor: pointer;
+    }
+
+    .down .downone .fa-ellipsis-vertical{
+        cursor: pointer;
+    }
